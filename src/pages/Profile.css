@@ -1,0 +1,40 @@
+.card4 {
+    width: 300px;
+    height: 340px;
+    box-shadow: 0px 8px 8px #c44177;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0d0c22    ;
+    border: #c44177 solid 1px;
+  }
+  .card-info {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9px 12px;
+    position: sticky;
+    
+  }
+
+  .tempatfoto {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+        width: 100px;
+        height: 100px;
+    border-radius: 50%;
+    border: solid #000 2px;
+}
+.tempatfoto1 {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+        width: 100px;
+        height: 100px;
+    border-radius: 50%;
+}
+

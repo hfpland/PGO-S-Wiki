@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #e94d8e;
+    -webkit-text-shadow-width: 1px;
+    -webkit-text-shadow-color: rgb(142, 142, 142);
+}
+
+.agartidaktenggelam {
+    margin-bottom: 5%;
+    padding: 20px;
+    background-image: url(https://i.ibb.co/9hGLfGS/Kelompeok-26-1.png);
+}

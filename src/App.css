@@ -1,0 +1,78 @@
+body {
+  background-image:url(https://i.ibb.co/mFXLzGt/appbg.png) ;
+
+  background-size:cover ;
+}
+
+#titleGroup {
+  margin: 0 0 0 0;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-family: Verdana;
+  font-weight: bolder;
+}
+
+header {
+  background-color: #0d0c22;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  padding: 35px 0 0 0;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px ;
+  border-bottom: solid #c44177;
+  border-width: 0.5px;
+  position:fixed;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #0d0c22;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: solid #c44177;
+  border-width: 0.5px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: Verdana;
+  padding: 5px 0;
+  font-size: 12px;
+  color: #c44177  ;
+}
+
+.icon {
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.active {
+  color: #EAEAEA;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c44177;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c44177;
+}
+::-webkit-scrollbar-track {
+  background: #0d0c22;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
